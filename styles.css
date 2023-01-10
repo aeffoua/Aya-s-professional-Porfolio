@@ -29,7 +29,13 @@ header ul li a:hover{
 }
 .container{
     margin-left: 8%;
-    margin-top: 15%;
+    margin-top: 200%;
+    width: 1000px;
+    border: 15px solid #9d21ad;
+    padding: 50px;
+    margin: 20px;
+    justify-content: center;
+  
 }
 .container p{
     font-size: 20px;
@@ -44,21 +50,24 @@ header ul li a:hover{
     
 #avatar {
     float: right;
-    width: 260px;
+    width: 200px;
     border: 3px inset #9d21ad;
     padding: 5px;
-    position: relative; 
-    top: -150px;
+    position: relative;
+    top: -0px;
     border-radius: 50%;
     
 
 }
 .mywork{
     margin-left: 8%;
-    margin-top: 8%;
+    margin-top: 70%;
 } 
 
-
+.body{
+    margin-left: 8%;
+    margin-top: 20%;
+}
 .mywork p{
     font-size: 20px;
     color: black;
@@ -117,3 +126,16 @@ header ul li a:hover{
 .text{
     text-align: center;
 }
+.section{
+    margin-left: 8%;
+    margin-top: 20%;
+}
+
+.section p{
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+
