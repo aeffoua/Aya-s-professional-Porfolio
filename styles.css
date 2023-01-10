@@ -1,0 +1,119 @@
+* {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: snow;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+header ul li a{
+    color: bisque;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    color: #9d21ad;
+
+}
+.container{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.container p{
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+#text{
+    text-align: left;
+
+}
+    
+#avatar {
+    float: right;
+    width: 260px;
+    border: 3px inset #9d21ad;
+    padding: 5px;
+    position: relative; 
+    top: -150px;
+    border-radius: 50%;
+    
+
+}
+.mywork{
+    margin-left: 8%;
+    margin-top: 8%;
+} 
+
+
+.mywork p{
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+#image{
+    float: right;
+    width: 500px;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #9d21ad;
+}
+
+.content{
+    margin-left: 8%;
+    margin-top: 8%; 
+}
+.content p{
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+#photo{
+    float: right;
+    width: 500px;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #9d21ad;
+}
+.Mycontacts{
+    width: 300px;
+    border: 15px inset #9d21ad;
+    padding: 50px;
+    margin-top: 250px;
+    margin-left: 40%;
+}
+
+
+#project{
+    margin-top: 80px;
+    width: 1000px;
+    height: 400px;
+    
+}
+.text-block{
+  position:relative;
+  bottom: 20px;
+  right: 20px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text{
+    text-align: center;
+}
