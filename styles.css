@@ -96,7 +96,7 @@ header ul li a:hover{
 #photo{
     float: right;
     width: 400px;
-    height: 100px;
+    height: 300px;
     border-style: inset;
     border-width: 10px;
     border-color: #9d21ad;
@@ -108,11 +108,16 @@ header ul li a:hover{
     margin-top: 250px;
     margin-left: 40%;
 }
-
-
 #project{
-    margin-top: 80px;
-    width: 1000px;
+    margin-top: 20px;
+    width: 900px;
+    height: 400px;
+    
+}
+
+#project1{
+    margin-top: 10px;
+    width: 900px;
     height: 400px;
     
 }
